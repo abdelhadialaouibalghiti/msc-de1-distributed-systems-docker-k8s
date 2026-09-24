@@ -1,0 +1,59 @@
+# Git metadata
+**/.git
+.gitignore
+.gitattributes
+
+# Python virtual environments
+**/.venv
+**/venv
+**/env
+**/.env
+
+# Python cache files
+**/__pycache__
+**/*.pyc
+**/*.pyo
+
+# IDE and editor files
+**/.vscode
+**/.idea
+**/*.swp
+**/*.swo
+**/*~
+
+# Local environment files and secrets
+**/.env.*
+**/secrets
+**/secrets.*
+**/*.pem
+**/*.key
+**/.aws
+**/.ssh
+
+# Test and tool caches
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.tox
+**/.nox
+**/.coverage
+**/.coverage.*
+**/htmlcov
+**/coverage.xml
+
+# Evidence and screenshots
+evidence/
+**/screenshots
+
+# Unnecessary local files
+tests/
+README.md
+**/.DS_Store
+**/Thumbs.db
+**/Desktop.ini
+**/*.log
+**/*.tmp
+**/*.bak
+build/
+dist/
+**/*.egg-info
