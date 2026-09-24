@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: flask-sample-app:local
+    ports:
+      - "5000:5000"
+    restart: "no"
+    # Inherits the non-root user and HEALTHCHECK from the Dockerfile.
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
